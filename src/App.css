@@ -405,3 +405,51 @@ footer {
 ::-webkit-scrollbar-thumb:hover {
   background: #555;
 }
+
+hr {
+  width: 100%;
+}
+
+.dark-theme hr {
+  color: #ffffff;
+}
+
+.light-theme hr {
+  color: #000000;
+}
+
+.NotFound-Page {
+  text-align: center;
+  align-items: center;
+  align-self: center;
+}
+
+.NotFound-Button-Page {
+  padding: 15px 30px;
+  transition: all 0.2s;
+  font-weight: 530;
+}
+
+.dark-theme .NotFound-Button-Page {
+  background-color: #131414;
+  color: #fff;
+  border: none;
+  border-radius: 15px 0 15px 0;
+}
+
+.dark-theme .NotFound-Button-Page:hover {
+  background-color: #111010;
+  border-radius: 0 15px 0 15px;
+}
+
+.light-theme .NotFound-Button-Page {
+  background-color: #e8e4e6;
+  color: #000;
+  border: none;
+  border-radius: 15px 0 15px 0;
+}
+
+.light-theme .NotFound-Button-Page:hover {
+  background-color: #ededf0;
+  border-radius: 0 15px 0 15px;
+}

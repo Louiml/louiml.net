@@ -3,6 +3,7 @@ import psyai from '../images/psyai.png';
 import TouishTranslator from '../images/TouishTranslator.png';
 import LMLMusic from '../images/LMLMusic.png';
 import Mainly from '../images/Mainly.png';
+import Elements from '../images/Elements.png';
 
 const ServicesPage = () => {
 
@@ -38,6 +39,12 @@ const ServicesPage = () => {
       <div className='services-ai-page'>
         <h3 className='services-service-title-page'>Mainly</h3>
         <img alt='' draggable={false} height={150} src={Mainly} />
+        <hr />
+        <button className='services-disable-button-ai-page'>Check Out!</button>
+      </div>
+      <div className='services-ai-page'>
+        <h3 className='services-service-title-page'>Elements</h3>
+        <img alt='' draggable={false} height={150} src={Elements} />
         <hr />
         <button className='services-disable-button-ai-page'>Check Out!</button>
       </div>
